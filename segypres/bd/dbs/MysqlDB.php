@@ -102,12 +102,12 @@ function query($query) {
 
     if ($this->db != null) {
         // submit query
-        $this->result = @mysql_query($query, $this->db);
+        $this->result = @mysqli_query($query, $this->db);
         if ($this->result != false) {
             return true;
         // save error msg
         } else {
-    	$this->_addError(@mysql_error($this->db), "query($query)");
+    	$this->_addError(@mysqli_error($this->db), "query($query)");
         }
     }
     return false;    
