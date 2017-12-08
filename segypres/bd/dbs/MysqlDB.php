@@ -62,15 +62,16 @@ function connect($host, $db, $user, $password, $persistent = false) {
         /*echo 'joder: '.$host.'<br>';
         echo 'joder: '.$user.'<br>';
         echo 'joder: '.$password.'<br>';*/
-        $this->db = mysqli_connect($host, $user, $password);
+        $this->db = mysqli_connect($host, $user, $password, $db);
+        return true;
         //$this->db = mysql_connect('localhost', 'root', 'garydavid');
     }
-    if ($this->db) {
+    /*if ($this->db) {
     	if (mysql_select_db($db, $this->db)) {
 		    return true;    	
     	}
     	$this->_addError(@mysql_error($this->db), 'connect()');
-    }
+    }*/
     return false;
 }
 
