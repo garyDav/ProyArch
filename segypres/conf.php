@@ -4,7 +4,8 @@ $Servidor = 'localhost';
 // Nombre de la base de datos
 $NombreBD = 'mate88d_dbmatersa';
 // Usuario de mysql
-$Usuario = 'mate88d_edgar';
+//$Usuario = 'mate88d_edgar';
+$Usuario = 'root';
 // Clave del usuario de mysql
 //$Clave = 'ojws56fha';
 $Clave = 'garydavid';
