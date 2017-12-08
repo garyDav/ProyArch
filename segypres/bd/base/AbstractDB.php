@@ -423,7 +423,9 @@ function getVersion() {
 *
 * @return   Boolean
 */
-function setDB() {
+/*function setDB() {
+}*/
+function setDB($database) {
 }
 
 ////////////////////////////////////////////////////////////////////////
