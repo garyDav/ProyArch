@@ -6,7 +6,8 @@ $NombreBD = 'mate88d_dbmatersa';
 // Usuario de mysql
 $Usuario = 'mate88d_edgar';
 // Clave del usuario de mysql
-$Clave = 'ojws56fha';
+//$Clave = 'ojws56fha';
+$Clave = 'garydavid';
 // Tipo de base de datos
 $TipoBD = 'mysql';
 // Conexion persistente

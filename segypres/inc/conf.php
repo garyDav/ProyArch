@@ -9,6 +9,7 @@ $Usuario = 'root';
 //$Usuario = 'matersa';
 // Clave del usuario de mysql
 $Clave = 'princesa';
+//$Clave = 'garydavid';
 //$Clave = '8P6P3865';
 // Tipo de base de datos
 $TipoBD = 'mysql';
