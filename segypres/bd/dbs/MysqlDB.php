@@ -59,10 +59,10 @@ function connect($host, $db, $user, $password, $persistent = false) {
     if ($persistent) {
         $this->db = mysql_pconnect($host, $user, $password);
     } else {
-        echo 'joder: '.$host.'<br>';
+        /*echo 'joder: '.$host.'<br>';
         echo 'joder: '.$user.'<br>';
-        echo 'joder: '.$password.'<br>';
-        $this->db = mysql_connect($host, $user, $password);
+        echo 'joder: '.$password.'<br>';*/
+        $this->db = mysqli_connect($host, $user, $password);
         //$this->db = mysql_connect('localhost', 'root', 'garydavid');
     }
     if ($this->db) {
