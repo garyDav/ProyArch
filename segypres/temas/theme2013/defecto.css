@@ -1,0 +1,128 @@
+@import url("reset.css");
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#333;
+    background: #000000 url('imagenes/bg.jpg') top center repeat;        
+}
+
+p {
+    padding: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#header {
+    float: left;
+    height: 180px;
+    width: 1200px;    
+    background: #000000 url('imagenes/encabezado.jpg') top center repeat-x;
+}
+
+#content {
+    float: left;
+    background: #FFFFFF;
+    width: 950px;
+}
+
+#leftcolumn {
+    background: #33CCFF;
+    width: 250px;
+    float: left;
+}
+
+#footer {
+    height: 40px;
+    width: 1200px;
+    background: #33FF66;
+    clear: both;
+}
+
+/* ========================================== */
+#menu_principal{
+    width: 240px;
+    padding-left: 5px;
+    padding-right: 5px;        
+}
+
+.ul_menu {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+}
+
+.ul_menu li {	
+	background-image: url("imagenes/bullets.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	height: 18px;
+	display: block;
+	border: 1px solid  #050205;
+}
+
+.ul_menu li.tit_menu {	
+	color: #ffff00;
+	background: #0e4664;
+	padding-left: 18px;
+	height: 18px;
+	display: block;
+        padding: 8px 3px;
+	border: 1px solid  #050205;
+	border-bottom: 1px solid #ffff00;
+	
+}
+
+.ul_menu li.tit_menu:hover {
+	color: #ffff00;
+	background: #0e4664;
+	text-decoration: none;
+	display: block;
+	background-image: none;
+}
+
+.ul_menu li a, .ul_menu li a:visited {
+	font-size: 12px;
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	/*background: #167ca2;*/
+	/*background: #357090;*/
+	background: #0e4664;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 18px;
+}
+
+.ul_menu li a:hover {
+	text-decoration: none;
+	display: block;
+	/*color: #167ca2;*/
+	color: #0e4664;
+	background: #fff;
+}
+
+.ul_menu li:hover {
+	text-decoration: none;
+	display: block;
+	/*color: #167ca2;*/
+	color: #0e4664;
+	background: #fff;
+	background-image: url("imagenes/bullets.png");
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+/* ================= TABLAS ================ */
+.listado{
+    width: 900px;
+}
+.listado th{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    
+}
