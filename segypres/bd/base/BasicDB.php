@@ -109,6 +109,7 @@ function BasicDB($libraryPath, $dbType, $preferredResType = ANYDB_RES_ASSOC) {
 * @return   Boolean     TRUE, if successful
 */
 function connect($host, $db, $user, $password, $persistent = false) {
+    echo $db;
     $this->free();
     $this->host = $host;
     $this->database = $db;
